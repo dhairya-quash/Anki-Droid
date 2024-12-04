@@ -48,11 +48,12 @@ android {
         aidl = true
     }
 
-    if (rootProject.testReleaseBuild) {
-        testBuildType "release"
-    } else {
-        testBuildType "debug"
-    }
+//    if (rootProject.testReleaseBuild) {
+//        testBuildType "release"
+//    } else {
+//        testBuildType "debug"
+//    }
+    testBuildType "debug"
 
     defaultConfig {
         applicationId "com.ichi2.anki"
