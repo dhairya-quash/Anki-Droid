@@ -53,7 +53,7 @@ android {
         // enable explicit api mode for additional checks related to the public api
         // see https://kotlinlang.org/docs/whatsnew14.html#explicit-api-mode-for-library-authors
         freeCompilerArgs += "-Xexplicit-api=strict"
-        jvmTarget = JavaVersion.VERSION_11.toString()
+        jvmTarget = JavaVersion.VERSION_17.toString()
     }
 
     publishing {
